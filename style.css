@@ -1,0 +1,64 @@
+.mobile-nav {
+    display: none;
+}
+
+.background {
+    background-color: #dfdfdf;
+}
+
+.align-div {
+    padding-top: 190px;
+}
+
+.btn-secondary {
+    background-color: hsl(270, 2%, 24%);
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .mobile-nav {
+
+        display: block;
+        height: 64px;
+        width: 100%;
+    }
+
+    .desk-nav {
+        display: none;
+    }
+
+    .nav-ul {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+
+    .nav-ul li {
+        list-style-type: none;
+    }
+
+    .nav-ul li a {
+        margin: 40px;
+    }
+
+}
+
+.man-section {
+    padding: 2% 2%;
+}
+
+.left-news {
+    padding: 2% 2%;
+}
+
+.right-img {
+    padding: 4% 5%;
+    width: 90%;
+    height: auto;
+}
+
+tr {
+    border: 3px solid;
+    border-color: #dfdfdf;
+}
